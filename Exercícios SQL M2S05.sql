@@ -58,4 +58,11 @@ INSERT INTO Consulta (id_nutricionista, id_paciente, data_consulta, observacoes)
 (2, 2, '2024-06-21', 'Paciente com necessidade de dieta para perda de peso'),
 (3, 1, '2024-06-22', 'Paciente com necessidade de dieta para ganho de massa muscular');
 
+-- exercicio 6 - DML update de relacionamentos
+
+UPDATE Consulta
+SET id_nutricionista = 2
+WHERE id_paciente = 1;
+
+
 
